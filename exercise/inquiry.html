@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>お問い合わせ</title>
+</head>
+
+<body>
+  <h1>お問い合わせ</h1>
+  <p>携帯電話についてよく分からないという方は、下記の問い合わせフォームよりお問い合わせ下さい。<br>
+    当社の専門スタッフが誠心誠意ご説明させて頂きます。</p>
+  <hr>
+  <h2>お問い合わせフォーム</h2>
+  <form action="">
+    <label for="name">お名前<br>
+      <input type="text" name="name" placeholder="姓">
+      <input type="text" name="name" placeholder="名">
+    </label>
+    <br>
+    <label for="email">メールアドレス<br>
+      <input type="email" name="email" placeholder="メールアドレス">
+    </label>
+    <br>
+    <label for="sex">性別<br>
+      <input type="radio" id="male" name="sex" value="male"><label for="male">男性</label>
+      <input type="radio" id="female" name="sex" value="female"><label for="female">女性</label>
+      <input type="radio" id="other" name="sex" value="other"><label for="other">その他</label>
+    </label>
+    <br>
+    <label for="address">都道府県<br>
+      <select name="address">
+        <option value="北海道">北海道</option>
+        <option value="青森">青森</option>
+        <option value="岩手">岩手</option>
+        <option value="秋田">秋田</option>
+        <option value="宮城">宮城</option>
+        <option value="山形">山形</option>
+        <option value="福島">福島</option>
+      </select>
+    </label>
+    <br>
+    <label for="faq">問い合わせ内容<br>
+      <textarea name="faq" cols="50" rows="10" placeholder="お問い合わせ内容"></textarea>
+    </label>
+    <br>
+    <input type="submit" value="送信">
+  </form>
+</body>
+
+</html>

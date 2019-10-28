@@ -1,0 +1,39 @@
+.menu-list {
+  /* 黒点を消す */
+  list-style: none;
+  /* 横並びにする */
+  display: flex;
+}
+.menu-item {
+  /* 間隔をあける */
+  width: 150px;
+  /* 左寄せ */
+  float: left;
+  /* 上下左右のパディング */
+  padding: 0 1px;
+}
+
+.menu-item a {
+  /* 文字の色 */
+  color: #4cc;
+  /* 背景色 */
+  background-color: #f4f4f4;
+  /* 下線を引く */
+  border-bottom: solid #bbb;
+  /* 文字を真ん中に */
+  text-align: center;
+  /* 左から折り返さないで並べる */
+  flex-flow: row nowrap;
+  /* ブロックボックス制作 */
+  display: block;
+  /* リンクテキストの下線を消す */
+  text-decoration: none;
+  /* 文字を太くする */
+  font-weight: bold;
+}
+
+/* リンクタグにカーソルが来たときの変更 */
+a:hover {
+  /* 下線部分に色変更 */
+  border-bottom: solid #4cc;
+}

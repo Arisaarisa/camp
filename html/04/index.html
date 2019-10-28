@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <form method="POST" action="xxxxx.php">
+    <!-- ここに記述していきます -->
+    <input type="text" placeholder="文字を入力して下さい">
+    <input type="password">
+    <input type="number">
+    <input type="date">
+    <input type="checkbox" name="選択肢" value="選択肢1" checked>選択肢1の表記
+    <input type="checkbox" name="選択肢" value="選択肢2">選択肢2の表記
+    <input type="checkbox" name="選択肢" value="選択肢3" disabled>選択肢3の表記
+    <input type="radio" name="選択肢" value="選択肢1" checked>選択肢1の表記
+    <input type="radio" name="選択肢" value="選択肢2">選択肢2の表記
+    <input type="radio" name="選択肢" value="選択肢3" disabled>選択肢3の表記
+    <input type="submit" value="送信">
+    <textarea name="エリア1" placeholder="住所を入力して下さい"></textarea>
+    <textarea name="エリア2" rows="5" cols=30></textarea>
+    <select name="address">
+      <option value="北海道">北海道</option>
+      <option value="東京">東京</option>
+      <option value="沖縄">沖縄</option>
+    </select>
+    <input type="radio" id="select1" name="選択肢" value="選択肢1" checked><label for="select1">選択肢1のラベル</label>
+    <input type="radio" id="select2" name="選択肢" value="選択肢2"><label for="select2">選択肢2のラベル</label>
+    <input type="radio" id="select3" name="選択肢" value="選択肢3" disabled><label for="select3">選択肢3のラベル</label>
+    <label>氏名<br>
+      <input type="text" placeholder="10文字以内で入力して下さい">
+    </label>
+  </form>
+  <strong>インラインレベル要素1</strong><a href="#">インラインレベル要素2</a>
+</body>
+
+</html>

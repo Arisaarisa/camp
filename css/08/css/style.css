@@ -1,0 +1,17 @@
+.container {
+  /* 中央揃えにする */
+  /* ブラウザを縮めたときに要素も縮まる */
+  max-width: 700px;
+  /* 上下の余白0,左右が自動 */
+  margin: 0 auto;
+  /* 横並びにする */
+  display: flex;
+}
+
+.left-image {
+  width: 270px;
+}
+
+.article {
+  flex: 1;
+}

@@ -1,0 +1,13 @@
+/* 分かりやすくするためにtableの高さを指定します */
+table {
+  height: 100px;
+}
+.text-top {
+  vertical-align: top;
+}
+.text-middle {
+  vertical-align: middle;
+}
+.text-bottom {
+  vertical-align: bottom;
+}

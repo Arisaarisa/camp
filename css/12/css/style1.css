@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.shop-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.shop-header a {
+  display: block;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin-top: 60px;
+  font-size: 1.3rem;
+}
+
+.nav li {
+  width: 150px;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  font-family: 'PT Serif', serif;
+  color: #333333;
+}
+
+.nav a:hover {
+  color: #AA0000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  margin-bottom: 50px;
+}
+
+.main-img {
+  max-width: 100%;
+}
+
+.main-title {
+  width: 700px;
+  margin: 50px auto 40px;
+  text-align: center;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.main-body {
+  display: flex;
+}
+
+.main-body img {
+  width: 400px;
+  margin-right: 50px;
+}
+
+.main-body p {
+  flex: 1;
+  line-height: 2;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #323232;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  background-color: #3B170B;
+  color: #F1E4E4;
+  margin-top: auto;
+}

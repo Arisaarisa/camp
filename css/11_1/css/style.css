@@ -1,0 +1,36 @@
+.nav {
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+}
+.nav li {
+  display: inline;
+  border: 1px solid gray;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #ffffe0;
+}
+@media screen and (max-width: 919px) {
+  /* 919px以下の場合 */
+  .nav li {
+    background-color: #e0ffff;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* 767px以下の場合 */
+  .nav {
+    font-size: 10px;
+    line-height: 1em;
+  }
+  .nav li {
+    display: block;
+    padding: 10px;
+    background-color: #ffc0cb;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* 479px以下の場合 */
+  .nav li {
+    background-color: #d3d3d3;
+  }
+}
